@@ -1,0 +1,35 @@
+class Main {
+  public static void main(String[] args) {
+
+    int x,y,z;
+
+    x = y = z = 1;
+    z += x + y;
+    System.out.println("x = " + x + ", y = " + y + ", z = "+ z);
+
+    x += y -= z = 5;
+    System.out.println("x = " + x + ", y = " + y + ", z = "+ z);
+    
+
+    // x = 10; y = 5; z = 0;
+    // z = x++ - y-- + 1;  //6
+    // //  11    4
+    // System.out.println("x=" + x + ", y = " + y + ", z = " + z);
+    //                     //  11              4             6
+
+    // x = 10; y = 5; z = 0;
+    // z = ++x - --y + 1; //8
+
+
+    // int a = 10;
+    // int b = 10;
+
+    //   int x = a++; // a = 11 , x = 10
+    //   int y = ++b; // b = 11 , y = 11
+    // System.out.println("x = "+ x +", y  = " + y + ", a = " + a + ", b = " + b);
+
+
+
+    // System.out.println("x = "+ x +", y = " + y + ", z = " + z);
+  }
+}
